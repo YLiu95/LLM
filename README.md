@@ -17,7 +17,7 @@ NVIDIA Driver >=452.39 -> visual studio 2019 -> CUDA 11.8 -> cuDNN 8.6 -> tensor
 ### installation guides
 Tensorflow guide:
 
-https://www.tensorflow.org/install/source#gpu
+https://www.tensorflow.org/install/source_windows
 
 NVIDIA support matrix:
 
