@@ -19,6 +19,8 @@ tensorflow-2.13.0 -> CUDA 11.8 -> visual studio 2019
 ### installation flow:
 NVIDIA Driver >=452.39 -> visual studio 2019 -> CUDA 11.8 -> cuDNN 8.6 -> tensorflow-2.13.0
 
+### version checking:
+The version of the CUDA Toolkit can be checked by running `nvcc -V` in a Command Prompt window.
 
 ### installation guides
 Tensorflow guide:
