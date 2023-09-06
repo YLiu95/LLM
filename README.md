@@ -23,7 +23,11 @@ Python -> NVIDIA GPU Driver -> visual studio 2019 -> CUDA -> cuDNN -> tensorflow
 The version of the CUDA Toolkit can be checked by running `nvcc -V` in a Command Prompt window.
 
 ### installation guides
-Tensorflow guide:
+Tensorflow guide for latest version:
+
+https://www.tensorflow.org/install/pip
+
+Tensorflow guide for windows:
 
 https://www.tensorflow.org/install/source_windows
 
