@@ -14,10 +14,10 @@ jupyter notebook --NotebookApp.allow_origin='https://colab.research.google.com' 
 ## CUDA setup notes
 
 ### version requirements check logical flow:
-tensorflow/tensorflow_gpu -> Python -> CUDA, cuDNN -> visual studio
+tensorflow/tensorflow_gpu -> Python -> CUDA, cuDNN -> visual studio -> NVIDIA GPU Driver
 
 ### installation flow:
-Python -> NVIDIA Driver -> visual studio 2019 -> CUDA -> cuDNN -> tensorflow/tensorflow_gpu
+Python -> NVIDIA GPU Driver -> visual studio 2019 -> CUDA -> cuDNN -> tensorflow/tensorflow_gpu
 
 ### version checking:
 The version of the CUDA Toolkit can be checked by running `nvcc -V` in a Command Prompt window.
